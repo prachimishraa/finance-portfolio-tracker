@@ -1,4 +1,4 @@
-# 📈 VaultIQ — Finance Portfolio Tracker
+# 📈 VaultIQ - Finance Portfolio Tracker
 
 > A modern, dark-themed stock portfolio tracker built with React, TypeScript, and Recharts. Designed to give investors a clean, real-time overview of their holdings, performance, and asset allocation.
 
