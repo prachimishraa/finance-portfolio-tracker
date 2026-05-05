@@ -21,13 +21,13 @@ A premium fintech-style dashboard featuring:
 
 ## ✨ Features
 
-- **Portfolio Overview** — Total portfolio value, invested capital, daily P&L, and all-time return at a glance
-- **Interactive Chart** — Area chart with 1W / 1M / 3M / 1Y range switcher, dynamically colored green or red based on performance
-- **Holdings Table** — View all positions with share count, current price, 24h change, total value, and allocation weight
-- **Sector Allocation** — Donut chart breaking down portfolio by sector (Technology, Consumer, Healthcare, Energy, etc.)
-- **Recent Activity** — Scrollable feed of recent BUY/SELL transactions with date and value
-- **Hover Interactions** — Row highlighting on holdings table for better UX
-- **Sticky Navigation** — Clean top nav with market status indicator
+- **Portfolio Overview** - Total portfolio value, invested capital, daily P&L, and all-time return at a glance
+- **Interactive Chart** - Area chart with 1W / 1M / 3M / 1Y range switcher, dynamically colored green or red based on performance
+- **Holdings Table** - View all positions with share count, current price, 24h change, total value, and allocation weight
+- **Sector Allocation** - Donut chart breaking down portfolio by sector (Technology, Consumer, Healthcare, Energy, etc.)
+- **Recent Activity** - Scrollable feed of recent BUY/SELL transactions with date and value
+- **Hover Interactions** - Row highlighting on holdings table for better UX
+- **Sticky Navigation** - Clean top nav with market status indicator
 
 ---
 
@@ -89,7 +89,7 @@ finance-portfolio-tracker/
 ├── public/
 │   └── favicon.svg
 ├── src/
-│   ├── App.tsx          # Main component — all dashboard logic & UI
+│   ├── App.tsx          # Main component - all dashboard logic & UI
 │   ├── main.tsx         # React entry point
 │   ├── App.css          # Base styles
 │   └── index.css        # Global styles
@@ -108,9 +108,9 @@ Displays total portfolio value with today's gain/loss badge and quick action but
 
 ### 2. Stat Cards
 Three summary cards showing:
-- **Invested Capital** — Total amount put in
-- **Total Return** — Absolute and percentage return since inception
-- **Today's P&L** — Intraday profit or loss
+- **Invested Capital** - Total amount put in
+- **Total Return** - Absolute and percentage return since inception
+- **Today's P&L** - Intraday profit or loss
 
 ### 3. Performance Chart
 An interactive area chart powered by Recharts. Switch between time ranges (1W, 1M, 3M, 1Y). The chart color dynamically changes to green when the selected period is profitable and red when not.
